@@ -1,0 +1,12 @@
+# 환경 변수
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
