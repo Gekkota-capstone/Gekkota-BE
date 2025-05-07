@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, DateTime, Float, ForeignKey
-from app.database import Base
+from app.core import Base
 
 class ActivityData(Base):
     __tablename__ = "activity_data"  # 데이터베이스 테이블 이름

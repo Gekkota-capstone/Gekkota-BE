@@ -11,10 +11,15 @@ class HealthCreate(BaseModel):
     shedding_status: Optional[str] = None  # 탈피 상태
     photo_urls: List[str] = []  # 건강 상태 사진 URL 목록
 
+    model_config = {
+        "from_attributes": True
+    }
+
 # 건강 기록 응답 스키마
 class HealthOut(HealthCreate):
     id: int  # 건강 기록 ID
     photo_urls: Optional[List[str]] = []  # 건강 상태 사진 URL 목록 (선택적)
 
-    class Config:
-        orm_mode = True  # ORM 모델과의 호환성 설정
+    model_config = {
+        "from_attributes": True
+    }

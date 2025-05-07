@@ -1,12 +1,12 @@
 from sqlalchemy.orm import Session
-from app.models.cleaning import CleaningRecord
-from app.models.cage import Cage
-from app.schemas.cleaning import CleaningCreate
+from app.models import CleaningRecord
+from app.models import Cage
+from app.schemas import CleaningCreate
 
 # 새로운 청소 기록 생성
 def create_cleaning_record(db: Session, data: CleaningCreate):
     # 청소 기록 객체 생성 및 저장
-    record = CleaningRecord(**data.dict())
+    record = CleaningRecord(**data.model_dump())
     db.add(record)
     db.commit()
     db.refresh(record)

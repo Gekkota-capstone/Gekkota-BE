@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from datetime import date, datetime
+from datetime import date
 from typing import List
 
 # 카메라 데이터 응답 스키마
@@ -9,5 +9,6 @@ class CameraDataOut(BaseModel):
     record_date: date  # 녹화 날짜
     video_url: List[str]  # 비디오 URL 목록
 
-    class Config:
-        orm_mode = True  # ORM 모델과의 호환성 설정
+    model_config = {
+        "from_attributes": True
+    }

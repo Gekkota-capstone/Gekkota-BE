@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Float, String, Date, ForeignKey, Text
 from sqlalchemy.orm import relationship
-from app.database import Base
+from app.core import Base
 import json
 
 class HealthRecord(Base):

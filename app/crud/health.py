@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from app.models.health import HealthRecord
-from app.schemas.health import HealthCreate
+from app.models import HealthRecord
+from app.schemas import HealthCreate
 from typing import List, Dict, Any
 
 # 새로운 건강 기록 생성

@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.models.camera import CameraData
+from app.models import CameraData
 
 # 케이지별 카메라 데이터 조회
 def get_camera_data_by_cage(db: Session, cage_id: int):

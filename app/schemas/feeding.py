@@ -9,9 +9,14 @@ class FeedingCreate(BaseModel):
     food_size: str  # 사료 크기
     food_amount: int  # 급여량
 
+    model_config = {
+        "from_attributes": True
+    }
+
 # 급여 기록 응답 스키마
 class FeedingOut(FeedingCreate):
     id: int  # 급여 기록 ID
 
-    class Config:
-        orm_mode = True  # ORM 모델과의 호환성 설정
+    model_config = {
+        "from_attributes": True
+    }

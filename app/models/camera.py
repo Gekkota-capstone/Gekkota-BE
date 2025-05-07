@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, Date, ForeignKey, Text
-from app.database import Base
+from app.core import Base
 import json
 
 class CameraData(Base):

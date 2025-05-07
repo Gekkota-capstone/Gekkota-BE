@@ -1,11 +1,11 @@
 from sqlalchemy.orm import Session
-from app.models.feeding import FeedingRecord
-from app.schemas.feeding import FeedingCreate
+from app.models import FeedingRecord
+from app.schemas import FeedingCreate
 
 # 새로운 먹이 급여 기록 생성
 def create_feeding_record(db: Session, data: FeedingCreate):
     # 먹이 급여 기록 객체 생성 및 저장
-    record = FeedingRecord(**data.dict())
+    record = FeedingRecord(**data.model_dump())
     db.add(record)
     db.commit()
     db.refresh(record)
