@@ -17,7 +17,7 @@
 <br>
 
 ### ✨ 시스템 아키텍쳐
-<img width="1378" alt="Image" src="https://github.com/user-attachments/assets/4984de26-7004-4ab4-a68f-92cc1dc2c8bc" />
+<img width="1378" alt="Image" src="https://github.com/user-attachments/assets/89776670-b5d6-4f0f-bffa-297cb73ce135" />
 
 <br><br>
 <hr>
