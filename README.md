@@ -9,15 +9,15 @@
 > 
 > 이를 해결하기 위한 솔루션으로 IoT와 AI를 결합한 스마트 사육 관리 시스템을 제안합니다. <br>
 > RADXA 기반 카메라로 실시간 모니터링, 영상 분석을 통한 행동/활동량 파악이 가능합니다. <br>
-> 캐릭터 기반 UI의 모바일 앱은 복잡한 데이터를 직관적으로 시각화하며, 기록 관리도 지원합니다.
+> sLLM 기반 챗봇을 통해 즉각적으로 맞춤형 사육 정보도 제공받을 수 있습니다. <br>
+> 캐릭터 기반 UI의 모바일 앱은 복잡한 데이터를 직관적으로 시각화하며, 기록 관리도 지원합니다. <br>
 >
 > 본 솔루션을 통해 파충류 시장의 지속적인 성장과 효율적인 사육 문화 정착에 기여할 수 있을 것으로 기대합니다.
 
 <br>
 
 ### ✨ 시스템 아키텍쳐
-
-<img width="1378" alt="Image" src="https://github.com/user-attachments/assets/8024d5e9-7a9d-428a-82f0-d615d8a1aadb" />
+<img width="1378" alt="Image" src="https://github.com/user-attachments/assets/4984de26-7004-4ab4-a68f-92cc1dc2c8bc" />
 
 <br><br>
 <hr>
